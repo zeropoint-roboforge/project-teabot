@@ -1,0 +1,58 @@
+# ===== ROS2 编译产物 =====
+ros2_ws/build/
+ros2_ws/install/
+ros2_ws/log/
+
+# ===== STM32 编译产物 =====
+firmware/Debug/
+firmware/Release/
+firmware/Build/
+firmware/Output/
+*.o
+*.d
+*.elf
+*.hex
+*.bin
+*.axf
+*.map
+*.lst
+*.crf
+*.dep
+*.lnp
+*.sct
+*.uvgui*
+*.bak
+
+# ===== STM32CubeIDE / Keil =====
+.settings/
+.metadata/
+.project
+.cproject
+.loadpath
+.externalToolBuilders/
+*.launch
+.recommenders/
+
+# ===== CubeMX 临时 =====
+*.ioc-backup
+.mxproject
+
+# ===== SolidWorks 临时 =====
+mechanical/cad/~$*
+*.sldlck
+*.autosave
+
+# ===== IDE =====
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ===== Python =====
+__pycache__/
+*.pyc
+
+# ===== 系统 =====
+Thumbs.db
+.DS_Store
+
